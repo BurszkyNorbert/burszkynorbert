@@ -1,0 +1,130 @@
+/* CSS reset */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 100%;
+}
+
+
+
+.profile-card {
+  width: 550px;
+  max-width: calc(100vw - 10px);
+  border: 2px solid;
+  border-color: deepskyblue;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: url(assets/background.jpg) no-repeat center center fixed;
+  background-size: cover;
+  font-family: 'New Tegomin', serif;
+}
+
+.head, .links {
+  text-align: center;
+}
+
+.head, .content {
+  width: 90%;
+  margin: 0 auto;
+}
+
+img {
+  width: 190px;
+  height: 200px;
+  border-radius: 20%;
+  padding: 3px;
+  background-color: black;
+  opacity: 0.6;
+}
+
+img:hover {
+  transform: scale(1.1);
+  transition: all 0.5s ease-in-out;
+  filter: grayscale(30%);
+  opacity: inherit;
+}
+
+.profile-image {
+  margin-top: -27px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  display: inline;
+}
+
+.about {
+  font-size: 20px;
+}
+
+.head, .about {
+  margin-bottom: 10%;
+  padding: 5%;
+  font-family: 'New Tegomin', serif;
+}
+
+.content {
+  padding: 5% 10%;
+}
+
+.profile-card {
+  background-color: hsla(195.06, 100%, 50%,);
+  border-radius: 10px;
+  box-shadow: hsla(195.06, 100%, 50%, .8) 15px 15px 85px;
+}
+
+.name-headline {
+  font-size: 30px;
+  font-family: 'New Tegomin', serif;
+  margin-top: 100px;
+}
+
+i {
+  color: deepskyblue;
+  padding: 0.5em;
+}
+
+i:hover {
+  transform: scale(1.2);
+  transition: all 0.5s ease-in-out;
+}
+
+p {
+  text-align: center;
+  color: deepskyblue;
+}
+
+a, h1, h2 {
+  color: deepskyblue;
+}
+
+a:hover {
+  color: black;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+.language {
+  margin: auto;
+  width: 49%;
+  font-size: 1rem;
+  font-weight: bold;
+  display: inline-block;
+}
+
+.language:hover {
+  transform: scale(1.2);
+  transition: all 0.5s ease-in-out;
+}
