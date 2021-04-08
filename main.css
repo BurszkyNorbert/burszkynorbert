@@ -66,7 +66,7 @@ body {
   width: 100vw;
   max-width: 60vh;
   margin: 0 auto;
-  margin-top: 14rem;
+  margin-top: auto;
   padding: 1.5rem;
   border: 0.125rem solid;
   border-color: deepskyblue;
@@ -83,6 +83,7 @@ body {
   margin: 0 auto;
   text-align: center;
 }
+
 
 img {
   width: auto;
@@ -174,35 +175,23 @@ h1 {
 
 /* mobil responsiv */
 
-@media (min-width: 760px) {
+@media (min-width: 740px) {
 	
-	img {
-		width: 40%;
-        margin-top: 3rem;
-        
-	}
+  body {
+    background-size: cover;
+  }
+	
     
     .language {
         position: inherit;
   }
   
   .profile-card {
-        margin-top: 5rem;
+        border-right: solid 1px deepskyblue;
+		border-left: solid 1px deepskyblue;
+        position: absolute;
+       
   }
 	
 }
 
-@media (min-width: 1024px) {
-	
-	img {
-		width: 40%;
-		margin-top: -10%;
-	}
-  
-    .profile-card {
-        margin-top: 2rem;
-        border-right: solid 1px deepskyblue;
-		border-left: solid 1px deepskyblue;
-  }
-	
-}
