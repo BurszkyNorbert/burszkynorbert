@@ -1,0 +1,65 @@
+body {
+  font-family: 'Indie Flower', cursive;
+  font-weight: 100;
+  box-sizing: border-box;
+  margin: 0 auto;
+  line-height: 1.8rem;
+}
+
+.img {
+  background: url('Image/gitarkep2.jpg') no-repeat center 50%;
+  padding-bottom: 70%;
+  width: 70%;
+}
+
+h1 {
+  text-align: center;;
+  font-weight: 300;
+  font-size: 2rem;
+  text-transform: uppercase;
+}
+
+h2 {
+  text-align: center;
+}
+
+.name-headline{
+  padding: 4rem 4rem;
+}
+.about{
+  padding: 0 4rem;
+  font-size: 1.15rem
+}
+.links{
+  text-align: center;
+  padding: 4rem 0
+}
+.social{
+  font-size: 1.5rem;
+}
+a{
+  text-decoration: none;
+  color:#333;
+  padding: 2rem 2rem;
+  display: inline-block;
+}
+@media (min-width: 1200px){
+  .img{
+    background-image: url('Image/kep.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: fixed;
+    padding-bottom: 70%;
+    width: 70%;
+    float: left;
+  }
+  .content_1{
+    float: right;
+    width: 30%;
+    height: 100%;
+  }
+}
+
+
+
+
